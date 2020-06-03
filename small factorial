@@ -1,0 +1,28 @@
+import java.util.Scanner;
+import java.
+
+
+class Main
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		
+
+	Scanner obj1=new Scanner(System.in);
+	int t=obj1.nextInt();
+	while(t>0) {
+	System.out.println(check1.fact(obj1.nextInt()));
+	
+	t--;}
+
+	}
+}
+public class check1 {
+ 	public static int fact(int n) {
+			if(n==1) {
+				return 1;
+			}
+			return n*fact(n-1);
+			
+		}
+}
