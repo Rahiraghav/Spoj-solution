@@ -1,0 +1,16 @@
+package nk;
+import java.util.Scanner;
+import java.math.BigInteger;
+public class check2 {
+	public static void main(String[] args) {
+		Scanner obj=new Scanner(System.in);
+		int t=10;
+		while(t>0) {
+		BigInteger a=obj.nextBigInteger();
+		BigInteger m=obj.nextBigInteger();
+	    BigInteger n=(a.subtract(m)).divide(BigInteger.valueOf(2));
+		System.out.println(a.subtract(n));
+		System.out.println(n);
+		t--;	}
+}
+}
